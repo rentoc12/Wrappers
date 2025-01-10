@@ -1,13 +1,19 @@
 public class primToWrappers {
+    
 
 
     public static void main(String[] args) {
-        
-        Integer num1 = 10;
-        System.out.println(num1);
 
-        Double numDouble = 32.3;
-        System.out.println(numDouble);
+        //exemplo usado
+        int num = 10;
+        Integer numWrapper = num;
+        System.out.println(numWrapper);
+
+        //feito igual o exemplo
+        double num2 = 20;
+        Double doubleWrapper = num2;
+        System.out.println(doubleWrapper);
+        
     }
 
 
